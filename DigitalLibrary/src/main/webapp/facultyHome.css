@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    
+}
+section {
+    background-image: url("/facHomePhot.jpg");
+    background-size: cover;
+    background-position: center;
+    height:78vh;/*view port hieght*/
+    padding-top: 10%;
+    text-align: center; /*to center the dov */ 
+    /* display: flex;
+    justify-content: center; */
+    
+    font-family: Cambria; 
+}
+.div1{
+    
+    
+    background-color: none;
+}
+.div1 button{
+	background-color: rgb(156, 114, 27);
+	opacity: 10;
+}
+
+.div2{
+   
+    color: aliceblue;
+    /* padding: 40px 60px; */
+    /* margin-bottom: 220px; */
+   
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    
+}
+.div3{
+    background-color: rgb(43, 49, 55);
+    padding: 40px 60px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+input{
+    border: none;
+    height: 36px;
+    width: 200px;
+    margin: 15px 0px;
+    outline: none;
+    border-radius: 6px;
+}
+div{
+    margin: 10px 10px;
+}
+
+button{
+        border: none;
+        background-color: rgba(166, 120, 29, 0.778);
+        color: rgb(40, 42, 44);
+        padding: 8px 20px;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+button:hover{
+    background-color: rgba(187, 182, 28, 0.778);
+    color: rgb(193, 202, 209);
+}
+textarea{
+        border-radius: 10px;
+}
+.red{
+    color: rgb(231, 37, 37);
+}
+.green{
+    color: rgb(75, 209, 75);
+}

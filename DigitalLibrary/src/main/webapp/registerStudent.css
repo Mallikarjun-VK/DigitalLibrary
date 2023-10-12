@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    
+}
+section{
+    background-image: url("/regFac.jpg");
+    background-size: cover;
+    background-position: center;
+    height:78vh;/*view port hieght*/
+    text-align: center; /*to center the dov */ 
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: Cambria;   
+}
+div{
+    background-color: rgb(43, 49, 55);
+    color: aliceblue;
+    padding: 40px 60px;
+    margin-bottom: 160px;
+    margin-right: 20px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+input{
+    border: none;
+    height: 36px;
+    width: 250px;
+    margin: 15px 0px;
+    outline: none;
+    border-radius: 6px;
+}
+button{
+    border: none;
+    background-color: rgba(166, 120, 29, 0.778);
+    color: rgb(68, 83, 98);
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgba(187, 182, 28, 0.778);
+    color: rgb(193, 202, 209);
+}

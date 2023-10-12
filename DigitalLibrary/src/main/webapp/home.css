@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+}
+
+section{
+    background-image: url("/lib.jpg");
+    background-size: cover;
+    background-position: center;
+    height:78vh;/*view port hieght*/
+    text-align: center; /*to center the dov */ 
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: Cambria;   
+}
+.div2{
+    background-color: rgb(43, 49, 55);
+    color: aliceblue;
+    padding: 40px 60px;
+    margin-bottom: 220px;
+    margin-right: 20px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.div3{
+    background-color:white;
+    color: aliceblue;
+    padding: 40px 60px;
+    margin-bottom: 220px;
+    margin-left: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(79, 75, 52);
+}
+.div2 h1{
+    color:aliceblue;
+}
+input{
+    border: none;
+    height: 36px;
+    width: 250px;
+    margin: 15px 0px;
+    outline: none;
+    border-radius: 6px;
+}
+.div3 input{
+    background-color:rgb(43, 49, 55) ;
+    
+}
+.h32{
+    color: red;
+}
+.h31{
+    color: rgb(78, 152, 78);
+}
+button{
+    border: none;
+    /* background-color: rgba(70, 88, 49, 0.778); */
+    color: white;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.div2 button{
+    background-color:white;
+    color: rgb(43, 49, 55);
+}
+.div2 button:hover{ 
+	background-color:rgb(102, 98, 98);
+}
+.div3 button{
+    background-color: rgb(43, 49, 55);
+}
+.div3 button:hover{ 
+	background-color: rgb(140, 153, 166);
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.atag:hover{
+	font-size: 23px;
+	text-decoration: none;
+}
+
